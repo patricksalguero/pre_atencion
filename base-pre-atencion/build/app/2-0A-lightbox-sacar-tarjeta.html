@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+
+	<title></title>
+
+
+
+	
+<link rel="stylesheet" type="text/css" href="../static/js/fancybox/jquery.fancybox-1.3.4.css"/>
+
+	<link rel="stylesheet" type="text/css" href="../static/css/styles.css"/>
+	<!--[if lt IE 9]>
+		<script src="../static/js/html5.js"></script>
+		<script src="../static/js/respond.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="../static/css/ie.css"/>
+	<![endif]-->
+</head>
+
+<body class="">
+
+
+	<div class="cnt-wrapper">
+		<div class="wrapper">
+			<header class="wancho">
+	<img src="../static/img/header-logo.png" width="184" height="32" alt="">
+	
+</header>
+		  	
+
+<!-- GENERAL 1 -->
+<!-- fancy box general -->
+<section class="g1 wancho ac">
+	<div class="ib mt100">
+		<a href="#contenido-1" class="fancy-text btn blanco w235 h65">
+			Abrir
+		</a>
+	</div>
+	<div style="display:none">
+		<div id="contenido-1" class="fancy-content w872 h614 pt65">
+			<a class="close-fancy" onclick="$.fancybox.close();"></a>
+
+			<section class="b12 mt170 mb60">
+				<div class="b12-text w450 ma pl75">
+					<p class="mb0">
+						¿Estás seguro que quieres cancelar tu operación?
+					</p>
+					<img src="../static/img/b12-cerrar2-admiracion.png" width="42" height="34" alt="">		
+				</div>
+			</section>
+			
+			<div class="ac fz0">	
+				<div class="ib mr45">
+					<a href="" class="btn w235 h65">
+						No, regresar
+					</a>
+				</div>
+				<div class="ib">
+					<a href="" class="btn w235 h65">
+						Sí, cancelar
+					</a>
+				</div>
+			</div>			
+		</div>
+	</div>
+</section>
+
+
+
+		</div>
+	</div>
+
+	
+
+	<!-- contenedor del menu responsive -->
+	<div class="menu-sidebar">
+		<div class="menu-sidebar-cnt"></div>
+	</div>
+
+
+	<script src="../static/js/jquery1.8.3.min.js" type="text/javascript"></script>
+	<script src="../static/js/jquery.placeholder.js" type="text/javascript"></script>
+	<script src="../static/js/main.js" type="text/javascript"></script>
+	
+<script src="../static/js/fancybox/jquery.fancybox-1.3.4.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".fancy-text").fancybox({
+			'titlePosition'	: 'inside',
+			'transitionIn'		: 'none',
+			'transitionOut'	: 'none',
+			'padding':0,
+			'showCloseButton':false,
+			'overlayColor': '#000'
+		});
+	});
+</script>
+
+
+	<script type="text/javascript">
+
+	</script>
+</body>
+</html>

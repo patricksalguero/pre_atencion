@@ -1,0 +1,56 @@
+.info-footer .list-product{
+  width: 340px
+}
+.info-footer{
+  padding: 20px 0px;
+}
+
+.b11-input input{
+  margin-top: 8px;
+}
+.header .menu-item .megamenu{
+  background: url("../media/patron-bg2.png");
+  height: 100%;
+  width: 100%;
+}
+
+.header .menu-item:hover .megamenu{
+  height: 260px;
+}
+
+
+footer .cuentanos-footer .block1 select{
+  padding: 10px 10px;
+}
+footer .cuentanos-footer .block1 input{
+  padding: 11px 10px ;
+}
+
+.header .menu-item .megamenu .w-nav-submenu{
+  height: auto;
+  padding-top: 30px;
+}
+
+.header .menu-item .megamenu .nav-submenu-block .nav-submenu-title{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.submenu-list .submenu-item{
+  width: 300px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.info-footer .ul-list{
+  width: 384px;
+}
+.info-footer .ul-list li{
+  width: 173px;
+  display: inline-block;
+  margin-right :10px
+}
+
+.info-footer .list-product{
+  margin-right: 45px;
+}

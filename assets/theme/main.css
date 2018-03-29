@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  color: #333;
+  background: #fefefe;
+}
+
+/* PANTLLA INICIAL - 1 */
+.header-logo {
+  padding-top: 10%;
+  width: 250px;
+}
+
+.text-top-30 {
+  margin-top: 90px;
+}
+
+.input-dni{
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+  color: #2b2b2b;
+}
+
+.input-dni:focus {
+  border-color: #28a745;
+  outline:0px;
+}
+
+.input-dni::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 0.8em;
+}
+.input-dni:-moz-placeholder {
+  color: #ccc;
+  font-size: 0.8em;
+}
+.input-dni:-ms-input-placeholder { 
+  color: #ccc;
+  font-size: 0.8em;
+}
+
+/* PANTLLA INICIAL - 3 */
+.header-logo-app {
+  width: 180px;
+}
+
+.header-title{
+  height: 20px;
+  background: #022984;
+  padding: 4px;
+  vertical-align: middle;
+  width: 100%;
+  font-size: 0.67em;
+  align-content: center;
+  color:white;
+  display: table;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.header-text {
+  margin-left: 9px;
+}
+
+.tarjeta-title{
+  margin-left: 15px;
+  font-size: 0.7em;
+}
+
+.tarjeta-number {
+  font-size: 0.6em;
+  margin-left: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.mtop-5 {
+ margin-top: 10px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.item-select {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.mr-10{
+  margin-left: 70px;
+  float: right;
+}
+
+.next{
+  bottom: 0px;
+  margin-top :150px;
+}
