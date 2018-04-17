@@ -33,4 +33,15 @@ $(document).ready( function() {
         $(".selected2").removeClass('btn-success')
     })
 
+    $(".checkbox-class").click(function(event){
+        if($(this).hasClass('text-success')){
+            $(this).addClass('text-white')
+            $(this).removeClass('text-success')
+        }else{
+            $(this).addClass('text-success')
+            $(this).removeClass('text-white')
+        }
+
+    })
+
 })
