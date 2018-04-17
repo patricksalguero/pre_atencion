@@ -98,6 +98,66 @@ body {
 }
 
 .next{
-  bottom: 0px;
-  margin-top :150px;
+  margin-top :40px;
+  margin-bottom: 40px;
+}
+
+.img-cuenta {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+  float: left;
+}
+
+.cuenta , .num-cuenta {
+  float: left;
+}
+
+.desc-cuenta {
+  margin-top: 10px;
+}
+
+.desc-cuenta .cuenta {
+  font-size: 20px;
+}
+
+.desc-cuenta .num-cuenta {
+  font-size: 17px;
+}
+
+
+.t-20 {
+  margin-top: 20px;
+}
+
+.monto {
+  font-size: 18px;
+  margin-left: 15px;
+  margin-top: 14px;
+  padding: 0px;
+  display: table;
+  vertical-align: middle;
+
+}
+
+.vencimiento {
+  vertical-align: middle;
+  font-size: 14px;
+  padding: 0px;
+  margin-left: 15px;
+  color: rgba(0, 0, 0, .5);
+}
+
+.card-body {
+  padding: 0px !important;
+}
+
+.card-cuotas {
+  margin-bottom: 3px;
+}
+
+.tarjetas-text{
+  font-size: 15px;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, .5);
 }
