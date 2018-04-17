@@ -1,0 +1,19 @@
+{
+  "name": "pre-atencion-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://patricksalguero@bitbucket.org/patricksalguero/pre-atencion-web.git"
+  },
+  "author": "Patrick Salguero",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/patricksalguero/pre-atencion-web#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
