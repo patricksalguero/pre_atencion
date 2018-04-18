@@ -41,7 +41,7 @@ $(document).ready( function() {
             $(this).addClass('text-success')
             $(this).removeClass('text-white')
         }
-
     })
+
 
 })
