@@ -72,7 +72,11 @@ body {
 
 .tarjeta-title{
   margin-left: 15px;
-  font-size: 0.6em;
+  font-size: 0.55em;
+}
+
+.otra-tarjeta {
+  font-size: 0.55em;
 }
 
 .tarjeta-number {
@@ -163,6 +167,22 @@ body {
   font-size: 15px;
   margin-top: 10px;
   color: rgba(0, 0, 0, .5);
+}
+
+
+.tarjeta1 {
+  position: absolute;
+  left: 350px;
+  float: right;
+}
+
+@media only screen and (max-width: 650px) {
+ /* For mobile phones: */
+.tarjeta1 {
+  position: absolute;
+  left: 220px;
+  float: right;
+} 
 }
 
 .text-white{
