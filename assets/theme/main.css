@@ -176,13 +176,30 @@ body {
   float: right;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 895px) {
  /* For mobile phones: */
 .tarjeta1 {
   position: absolute;
-  left: 220px;
+  left: 250px;
   float: right;
 } 
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .tarjeta1 {
+   position: absolute;
+   left: 240px;
+   float: right;
+ } 
+ }
+
+@media only screen and (max-width: 1130px) {
+  .tarjeta1 {
+    position: absolute;
+    left: 250px;
+    float: right;
+  } 
 }
 
 .text-white{
