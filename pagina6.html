@@ -26,102 +26,46 @@
 <body>
 
     <div class="container-fluid">
-        <div class="row justify-content-md-center  justify-content-xs-center">
+        <div class="row justify-content-md-center">
             <!-- Diseño para celular -->
             <div class="col-sm-12 col-xs-12 col-md-5 col-md-5">
-                <div class="text-center">
+                <div>
                     <img src="assets/imgs/ibk-logo.png" class="img img-responsive header-logo-app">
                 </div>
 
+                <div class="content-tarjetas">
+                    <div class="header-title">
+                        <small class="header-text">Ingresa datos del pago :</small>
+                    </div>
 
-                <!-- Texto final del ticket pre-atencion -->
-                <p class="text-resume-title">
-                    ¡Listo! Acércate hoy con tu DNI al Interbank de Plaza Vea de La Rambla en San Borja de 9am a 9pm
-                </p>
+                    <label for="" class="text-normal">Número de tarjeta de crédito</label>
+                    <input type="text" name="" value="4557 8944 1771 6853" id="" class="form-control input-dni" style="margin-bottom: 10px;">
 
-                <table align="center">
-                    <tbody>
-                        <div>
-                            <tr class="bot-10">
-                                <td class="text-resume">Tarjeta a pagar:</td>
-                                <td class="text-resume">
-                                    <span class="td">AMEX Blue</span>
-                                    <span class="td">3777 54 *** *** 613</span>
-                                </td>
-                            </tr>
-                            
-                            <tr class="bot-10">
-                                <td class="text-resume">Monto a pagar en soles:</td>
-                                <td class="text-resume">
-                                    <span class="td">S/ 225.00</span>
-                                </td>
-                            </tr>
-
-                            <tr class="bot-10">
-                                <td class="text-resume">Monto a pagar en dólates:</td>
-                                <td class="text-resume">
-                                    <span class="td">US$ 121.00</span>
-                                </td>
-                            </tr>
+                    <p class="text-normal text-left">Moneda</p>
+                    <div class="row justify-content-md-center justify-content-center">
+                        <div class="col-xs-12">
+                            <div class="btn-group" role="group" aria-label="Tipos">
+                                <button type="button" class=" btn-check btn btn-success selected-moneda selected1">Soles</button>
+                                <button type="button" class="btn-check btn selected-moneda selected2">Dólares</button>
+                            </div>
                         </div>
+                    </div>
 
-                        <div>
-                            <tr class="bot-10">
-                                <td class="text-resume">Tarjeta a pagar:</td>
-                                <td class="text-resume">
-                                    <span class="td">AMEX Gold</span>
-                                    <span class="td">37547 54 *** *** 245</span>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td class="text-resume">Monto a pagar en soles:</td>
-                                <td class="text-resume">
-                                    <span class="td">S/ 225.00</span>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td class="text-resume">Monto a pagar en dólates:</td>
-                                <td class="text-resume">
-                                    <span class="td">US$ 121.00</span>
-                                </td>
-                            </tr>
-                        </div>
+                   <label for="" class="text-normal">Monto</label>
+                   <input type="text" value="S/ 600.00" name="" id="" class="form-control input-dni" style="margin-bottom: 10px;">
 
 
-                        <div class="bot-10">
-                            <tr>
-                                <td class="text-resume">Tarjeta a pagar:</td>
-                                <td class="text-resume">
-                                    <span class="td">Otra tarjeta Ibk</span>
-                                    <span class="td">3756 54 *** *** 341</span>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td class="text-resume">Monto a pagar en soles:</td>
-                                <td class="text-resume">
-                                    <span class="td">S/ 225.00</span>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td class="text-resume">Monto a pagar en dólates:</td>
-                                <td class="text-resume">
-                                    <span class="td">US$ 121.00</span>
-                                </td>
-                            </tr>
-                        </div>
-
-                    </tbody>
-                </table>
-                
-                <br>
-                <div class="text-center tarjetas-text">
-                        * Esta constancia no es un pago
+                    <div class="text-center tarjetas-text">
+                        (Tarjetas 3 de 3)
+                    </div>
                 </div>
-                <br>
+
+
+                <div class="next">
+                    <button class="btn btn-lg btn-block btn-success" onclick="window.location.href='pagina7.html'">
+                        Siguiente
+                    </button>
+                </div>
 
 
 
