@@ -1,0 +1,104 @@
+.btns-numbers
+	width 278px
+	font-size 46px
+	display inline-block
+	vertical-align top
+.btns-numbers-item
+	background url('../img/bg-calc.png')
+	width 87px
+	height 66px
+	display inline-block
+	vertical-align top
+	line-height 63px
+	text-align right
+	font-family t-2
+	margin-bottom 8px
+	cursor pointer
+	padding-right 10px
+	box-sizing border-box
+	&.btns-punto
+		text-align center
+		padding-right 0
+	&:active
+		background-position 0px 65px
+.btns-numbers-item.borrar
+	font-size 14px
+	color c-2
+	font-family t-1
+	text-transform uppercase
+	text-align  center
+	padding 0
+.wrapper-text-monto
+	height 120px
+	text-align right
+.wrapper-text-monto.atencion
+	.wrapper-text-input
+		img
+			display inline-block
+	.text-input-unic
+		&.gris
+			display none
+		&.rojo 
+			display inline-block
+	.wrapper-input
+		&:before
+			content ""
+			width 103.7%
+			border 3px solid c-2
+			height 69px
+			position absolute
+			box-sizing border-box
+			left -6px
+			right 0
+			border-radius 8px
+			bottom -7px
+			margin auto
+			pointer-events none
+.text-monto
+	width 470px
+	display inline-block
+	vertical-align top
+	text-align right
+.wrapper-input
+	position relative
+	display inline-block
+
+.smb-monto
+	font-size 40px
+	font-family t-1
+	position absolute
+	left -60px
+.input-unic
+	border none
+	background none
+	border-radius 8px
+	width 100%
+	display block
+	font-size 40px
+	font-family t-1
+	line-height 55px
+	height 55px
+	background url('../img/bg-input-unic.jpg') repeat-x
+	text-align right
+	box-sizing border-box
+	padding 0px 10px
+	text-shadow 1px 1px 1px white
+	color c-0
+.text-input-unic
+	font-size 22px
+	&.rojo
+		color c-2
+		display none
+	&.gris
+		display block
+.wrapper-text-input
+	img,
+	span
+		display inline-block
+		vertical-align middle
+	img
+		display none
+		
+
+
+

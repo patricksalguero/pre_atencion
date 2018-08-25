@@ -1,0 +1,79 @@
+.text-azul
+	font-size 22px
+	color c-6
+	font-family t-2
+
+
+.bg-gris
+	background-color c-7
+.sec-general
+	padding 20px
+	border 1px dashed gray
+
+.btn
+	border none
+	background-color c-5
+	display table-cell
+	vertical-align middle
+	text-align center
+	font-family t-1
+	font-size 24px
+	color blanco
+	border-radius 10px 0px 10px 0px
+	box-sizing border-box
+	line-height 1
+	
+	&.blanco
+		border 2px solid c-5
+		background-color transparent
+		color c-5
+	&.left-celeste
+		background-color #00b2a9
+		border-bottom 4px solid #02928b
+		border-radius 10px 0 0 0
+	
+	&.buscar
+		border-radius 5px
+		
+	&.disable
+		background-color #ccebd8
+
+	&.btn-azul
+		background-color #0039a6 
+		
+	&.rd-right-button
+		border-radius 0px 0px 10px 0
+	&.rd-left-top
+		border-radius 10px 0px 0px 0
+.g2-title
+	position absolute
+	color c-5
+	font-family t-1
+	font-size 24px
+	top -18px
+	left 47px
+	padding 0 10px
+	line-height 100%
+	background-color blanco
+	box-shadow 0 12px 0 #f6f6f6 inset	
+	font-weight normal	
+
+/*** tab ***/
+.content-tab
+	position relative
+	.item-tab.active
+		visibility visible
+		position relative
+		opacity 1
+		z-index 2
+	
+	.item-tab
+		visibility hidden
+		position absolute
+		top 0
+		left 0
+		opacity 0
+		z-index 1
+/*** tab ***/
+		
+		
